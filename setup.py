@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'jackal_controller'
+package_name = 'jackal_controller2'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "UDP_Receiver = jackal_controller.UDP_Receiver:main"
+            "UDP_Receiver = jackal_controller2.UDP_Receiver:main"
         ],
     },
 )
